@@ -1,4 +1,143 @@
 .main {
     background-color: #247CAB;
     padding-top: 150px;
+    padding-bottom: 150px;
+
+    * {
+        transition: all .1s ease-in;
+        
+    }
+
+    &__content {
+        background-color: #2793C9;
+        padding-top: 50px;
+        padding-left: 220px;
+        padding-right: 220px;
+        padding-bottom: 50px;
+    }
+
+    .cities {
+        list-style: none;
+        font-family: sans-serif;
+        color: white;
+        text-align: center;
+        background: #ccc;
+        font-size: 0;
+        border: 1px white solid;
+        
+    }
+
+
+    .cities li {
+        margin: 5px 0;
+        display: inline-block;
+        background: orange;
+        font-size: 15px;
+        margin: 0;
+        border: 1px white solid;
+        
+    }
+
+    ul:hover li { opacity:0.5; }
+ul li:hover { opacity:1; }
+
+    .cities p {
+        color: white;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        opacity: 0.6;
+    }
+
+    p {
+        color: white;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .wi {
+        font-size: 20px;
+        opacity: 0.6;
+    }
+
+    li:first-child {
+        background: #2793C9;
+        width: 50%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    li:nth-child(2) {
+        background: #26BCC8;
+        width: 25%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    li:nth-child(3) {
+        background: #986F95;
+        width: 25%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    li:nth-child(4) {
+        background: #C65444;
+        width: 25%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    li:nth-child(5) {
+        background: #E77144;
+        width: 25%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    li:nth-child(6) {
+        background: #FFCB5F;
+        width: 25%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    li:nth-child(7) {
+        background: #95C297;
+        width: 25%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    li:nth-child(8) {
+        background: #61928E;
+        width: 25%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    li:nth-child(9) {
+        background: #D17395;
+        width: 50%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    li:nth-child(10) {
+        background: #2A8C65;
+        width: 25%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    li:nth-child(11) {
+        background: #636999;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+ 
 }
