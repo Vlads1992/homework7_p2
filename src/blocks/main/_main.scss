@@ -17,14 +17,18 @@
     }
 
     .cities {
-        list-style: none;
-        font-family: sans-serif;
+        list-style-type: none;
+        
         color: white;
         text-align: center;
         background: #ccc;
         font-size: 0;
-        border: 1px white solid;
+        border: 1px solid white;
+        box-sizing: border-box;
         
+        margin: 25px auto;
+        background-color: #ffffff;
+        pointer-events: none;
     }
 
 
@@ -34,12 +38,25 @@
         background: orange;
         font-size: 15px;
         margin: 0;
-        border: 1px white solid;
+        border: 2px solid white;
+        pointer-events: all;
+ 
+        
+        
         
     }
 
-    ul:hover li { opacity:0.5; }
-ul li:hover { opacity:1; }
+
+
+    ul:hover li { 
+        opacity:0.5; 
+        
+    }
+
+ul li:hover { 
+    opacity:1; 
+    
+}
 
     .cities p {
         color: white;
@@ -59,6 +76,10 @@ ul li:hover { opacity:1; }
     .wi {
         font-size: 20px;
         opacity: 0.6;
+    }
+
+    .wi-sunrise {
+        opacity: 1;
     }
 
     li:first-child {
@@ -116,6 +137,7 @@ ul li:hover { opacity:1; }
         width: 25%;
         padding-top: 15px;
         padding-bottom: 15px;
+        
     }
 
     li:nth-child(9) {
@@ -123,6 +145,7 @@ ul li:hover { opacity:1; }
         width: 50%;
         padding-top: 15px;
         padding-bottom: 15px;
+        
     }
 
     li:nth-child(10) {
@@ -130,6 +153,7 @@ ul li:hover { opacity:1; }
         width: 25%;
         padding-top: 15px;
         padding-bottom: 15px;
+        
     }
 
     li:nth-child(11) {
